@@ -4,6 +4,6 @@ export class GalacticAge {
   }
 
   mercuryAge() {
-
+    return Math.floor(this.earth / .24)
   }
 }
