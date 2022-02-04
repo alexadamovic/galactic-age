@@ -12,6 +12,6 @@ export class GalacticAge {
   }
 
   marsAge() {
-    
+    return Math.floor(this.earth / 1.88)
   }
 }
