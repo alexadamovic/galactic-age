@@ -29,16 +29,21 @@ describe('GalacticAge', () => {
 
   test('should take life expectancy in Earth years as a property of GalacticAge object', () => {
     let myAge = new GalacticAge(35, 80);
-    expect(myAge.life).toEqual(80)
+    expect(myAge.life).toEqual(80);
   });
 
   test('should return the number of Mercury years a person has left to live', () => {
     let myAge = new GalacticAge(35, 80);
-    expect(myAge.mercuryLeft()).toEqual(188)
+    expect(myAge.mercuryLeft()).toEqual(188);
   });
 
   test('should return the number of Venus years a person has left to live', () => {
     let myAge = new GalacticAge(35, 80);
-    expect(myAge.venusLeft()).toEqual(73)
+    expect(myAge.venusLeft()).toEqual(73);
+  });
+
+  test('should return the number of Mars years a person has left to live', () => {
+    let myAge = new GalacticAge(35, 80);
+    expect(myAge.marsLeft()).toEqual(24);
   });
 });
