@@ -31,4 +31,9 @@ describe('GalacticAge', () => {
     let myAge = new GalacticAge(35, 80);
     expect(myAge.life).toEqual(80)
   });
+
+  test('should return the number of Mercury years a person has left to live', () => {
+    let myAge = new GalacticAge(35, 80);
+    expect(myAge.mercuryLeft()).toEqual(188)
+  });
 });

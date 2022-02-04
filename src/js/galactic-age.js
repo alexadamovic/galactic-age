@@ -7,4 +7,8 @@ export class GalacticAge {
     this.marsAge = Math.floor(this.earthAge / 1.88);
     this.jupiterAge = Math.floor(this.earthAge / 11.86);
   }
+
+  mercuryLeft() {
+
+  }
 }
