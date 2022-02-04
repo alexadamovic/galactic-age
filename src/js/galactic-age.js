@@ -16,6 +16,6 @@ export class GalacticAge {
   }
 
   jupiterAge() {
-
+    return Math.floor(this.earth / 11.86)
   }
 }
