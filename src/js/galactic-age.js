@@ -33,6 +33,10 @@ export class GalacticAge {
     }
 
   jupiterLeft() {
-    return Math.floor(this.life / 11.86) - this.jupiterAge;
-  }
+    if (this.life > this.earthAge) {
+      return Math.floor(this.life / 11.86) - this.jupiterAge;
+      } else {
+        return this.jupiterAge - Math.floor(this.life / 11.86) + " extra years. Bingbong!"
+      }
+    }
 }
