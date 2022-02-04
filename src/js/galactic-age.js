@@ -9,7 +9,11 @@ export class GalacticAge {
   }
 
   mercuryLeft() {
+    if (this.life > this.earthAge) {
     return Math.floor(this.life / .24) - this.mercuryAge;
+    } else {
+      return this.mercuryAge - Math.floor(this.life / .24) + " extra years. Wow!"
+    }
   }
 
   venusLeft() {
