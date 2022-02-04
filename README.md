@@ -1,6 +1,6 @@
-# (Application Name)
+# Super Galactic Age Calculator
 
-#### (Brief Description of Application)
+#### A JavaScript application that informs a user of their galactic ages
 
 #### By Alex Adamovic
 
@@ -24,19 +24,25 @@
 
 ## Description
 
+_This Javascript application takes a users age in Earth years and converts it into their age on four different planets in our solar system: Mercury, Venus, Mars, and Jupiter. It also takes an estimate of the users lifespan that they provide and returns how many more years they can expect to live on each of those planets. Finally, if a user has outlived their life expectancy, the application will return the number of years past their life expectancy that they have lived on each of the planets._
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _clone repository from https://github.com/alexadamovic/galactic-age_
+* _navigate to the project directory in your terminal and run npm install_
+* _open code in your editor of choice_
+* _open index.html in your browser to view DOM_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _none_
 
 ## License
 
+_MIT License_
+
+Copyright (c) _2022_ _Alex Adamovic_
+
 ## Contact Information
+
+alexanderadamovic@gmail.com
