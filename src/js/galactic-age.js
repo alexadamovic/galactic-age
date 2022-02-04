@@ -1,6 +1,7 @@
 export class GalacticAge {
-  constructor(earth) {
+  constructor(earth, life) {
     this.earth = earth;
+    this.life = life
   }
 
 
