@@ -56,5 +56,10 @@ describe('GalacticAge', () => {
     let myAge = new GalacticAge(100, 80);
     expect(myAge.mercuryLeft()).toEqual("83 extra years. Wow!");
   });
+
+  test('should return the number of Venus years a person has lived past their life expectancy', () => {
+    let myAge = new GalacticAge(100, 80);
+    expect(myAge.venusLeft()).toEqual("32 extra years. Nice!");
+  });
   
 });
