@@ -8,6 +8,6 @@ export class GalacticAge {
   }
 
   venusAge() {
-    
+    return Math.floor(this.earth / .62)
   }
 }
