@@ -1,4 +1,4 @@
-import { GalacticAge } from './../src/js/galactic-age.js'
+import { GalacticAge } from './../src/js/galactic-age.js';
 
 describe('GalacticAge', () => {
 
