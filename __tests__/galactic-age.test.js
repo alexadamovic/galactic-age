@@ -33,4 +33,9 @@ describe('GalacticAge', () => {
     expect(myAge.diet).toEqual("Healthy")
     expect(myAge.exercise).toEqual("Active")
   });
+
+  test('should return a user life expectancy in earth years based on diet and exercise', () => {
+    let myAge = new GalacticAge(35, "Healthy", "Active");
+    expect(myAge.life).toEqual(90)
+  });
 });
