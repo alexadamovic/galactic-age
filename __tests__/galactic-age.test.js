@@ -27,5 +27,8 @@ describe('GalacticAge', () => {
     expect(myAge.jupiterAge()).toEqual(2);
   });
 
-
+  test('should take life expectancy in Earth years as a property of GalacticAge object', () => {
+    let myAge = new GalacticAge(35, 80);
+    expect(myAge.life).toEqual(80)
+  });
 });
