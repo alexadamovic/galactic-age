@@ -46,4 +46,9 @@ describe('GalacticAge', () => {
     let myAge = new GalacticAge(35, 80);
     expect(myAge.marsLeft()).toEqual(24);
   });
+
+  test('should return the number of Jupiter years a person has left to live', () => {
+    let myAge = new GalacticAge(35, 80);
+    expect(myAge.jupiterLeft()).toEqual(4);
+  });
 });

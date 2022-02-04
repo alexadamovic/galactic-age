@@ -19,4 +19,8 @@ export class GalacticAge {
   marsLeft() {
     return Math.floor(this.life / 1.88) - this.marsAge;
   }
+
+  jupiterLeft() {
+
+  }
 }
