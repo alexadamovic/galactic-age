@@ -1,9 +1,9 @@
 export class GalacticAge {
   constructor(earth, diet, exercise) {
     this.earth = earth;
-    this.diet = diet;
-    this.exercise = exercise;
   }
+
+
 
   mercuryAge() {
     return Math.floor(this.earth / .24)
