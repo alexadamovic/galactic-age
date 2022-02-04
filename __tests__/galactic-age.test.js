@@ -66,5 +66,10 @@ describe('GalacticAge', () => {
     let myAge = new GalacticAge(100, 80);
     expect(myAge.marsLeft()).toEqual("11 extra years. Sweet!");
   });
+
+  test('should return the number of Jupiter years a person has lived past their life expectancy', () => {
+    let myAge = new GalacticAge(100, 80);
+    expect(myAge.jupiterLeft()).toEqual("2 extra years. Bingbong!");
+  });
   
 });
