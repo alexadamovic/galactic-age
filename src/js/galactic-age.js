@@ -21,6 +21,6 @@ export class GalacticAge {
   }
 
   jupiterLeft() {
-
+    return Math.floor(this.life / 11.86) - this.jupiterAge;
   }
 }
