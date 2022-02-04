@@ -25,8 +25,12 @@ export class GalacticAge {
   }
 
   marsLeft() {
-    return Math.floor(this.life / 1.88) - this.marsAge;
-  }
+    if (this.life > this.earthAge) {
+      return Math.floor(this.life / 1.88) - this.marsAge;
+      } else {
+        return this.marsAge - Math.floor(this.life / 1.88) + " extra years. Sweet!"
+      }
+    }
 
   jupiterLeft() {
     return Math.floor(this.life / 11.86) - this.jupiterAge;
