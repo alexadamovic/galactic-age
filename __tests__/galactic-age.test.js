@@ -39,6 +39,6 @@ describe('GalacticAge', () => {
 
   test('should return the number of Venus years a person has left to live', () => {
     let myAge = new GalacticAge(35, 80);
-    expect(myAge.venusLeft()).toEqual(72)
+    expect(myAge.venusLeft()).toEqual(73)
   });
 });
