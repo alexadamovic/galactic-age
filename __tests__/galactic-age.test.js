@@ -11,4 +11,9 @@ describe('GalacticAge', () => {
     let myAge = new GalacticAge(35);
     expect(myAge.mercuryAge()).toEqual(145)
   });
+
+  test('should convert age in Earth years to Venus years', () => {
+    let myAge = new GalacticAge(35);
+    expect(myAge.venusAge()).toEqual(56)
+  });
 });
