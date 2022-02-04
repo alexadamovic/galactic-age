@@ -9,6 +9,6 @@ export class GalacticAge {
   }
 
   mercuryLeft() {
-
+    return Math.floor(this.life / .24) - this.mercuryAge;
   }
 }
