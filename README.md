@@ -35,7 +35,7 @@ _This Javascript application takes a users age in Earth years and converts it in
 
 ## Known Bugs
 
-* _none_
+* _UI logic is unfinished: Need to add in order to get application to work in DOM_
 
 ## License
 
