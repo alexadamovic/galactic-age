@@ -29,9 +29,9 @@ _This Javascript application takes a users age in Earth years and converts it in
 ## Setup/Installation Requirements
 
 * _clone repository from https://github.com/alexadamovic/galactic-age_
-* _navigate to the project directory in your terminal and run npm install_
+* _navigate to the project directory in your terminal and run command "npm install"_
 * _open code in your editor of choice_
-* _open index.html in your browser to view DOM_
+* _run command "npm run start" in terminal to open a live server in your browser_
 
 ## Known Bugs
 
