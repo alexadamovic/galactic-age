@@ -10,7 +10,7 @@
 * _JavaScript_
 * _CSS_
 
-#### Dependencies
+### Dependencies
 ##### _This project was built using [Node.js v16.x] and utilizes the following dependencies:_
 
 * _jQuery_
@@ -29,9 +29,10 @@ _This Javascript application takes a users age in Earth years and converts it in
 ## Setup/Installation Requirements
 
 * _clone repository from https://github.com/alexadamovic/galactic-age_
-* _navigate to the project directory in your terminal and run command "npm install"_
-* _open code in your editor of choice_
-* _run command "npm run start" in terminal to open a live server in your browser_
+* _navigate to the project directory in your terminal/command line_
+* _enter ```$ npm install``` first to install project dependencies_
+* _enter ```$ npm run test``` to run developer tests with JEST_
+* _enter ```$ npm run start``` to start live server and open in browser_
 
 ## Known Bugs
 
